@@ -5,16 +5,20 @@ const App = () => {
   const reyesGodos = [
     {
       rey: "Ataúlfo",
-      aficion: "comer toros sin pelar"
+      aficion: "comer toros sin pelar",
     },
     {
       rey: "Recesvinto",
-      aficion: "leer a Hegel en arameo"
+      aficion: "leer a Hegel en arameo",
     },
     {
       rey: "Teodorico",
-      aficion: "la cría del escarabajo en almíbar"
-    }
+      aficion: "la cría del escarabajo en almíbar",
+    },
+    {
+      rey: "Atanagildo",
+      aficion: "pararse de manos sobre un alfiler",
+    },
   ];
 
   const [contador, setContador] = useState(0);
